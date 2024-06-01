@@ -80,10 +80,10 @@
     "secrets": {
       "flake": false,
       "locked": {
-        "lastModified": 1717025033,
-        "narHash": "sha256-X+bhL/W6Hpi9lgDPk59LaKqgabvIg1I4qB/2h7SEq+8=",
+        "lastModified": 1717171281,
+        "narHash": "sha256-GdEjpntIKcc4/P+oFCHhWB4tJaXPKkBELMj77SrAvQY=",
         "ref": "main",
-        "rev": "23787f2e927d765d160fc592fb547a4548e0224c",
+        "rev": "6f184018e65f86ddeabb14ccf02d8bef7d8d762a",
         "shallow": true,
         "type": "git",
         "url": "ssh://git@github.com/kamil-krawczyk/.secrets.git"
