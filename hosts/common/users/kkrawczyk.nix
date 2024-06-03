@@ -13,7 +13,7 @@ in
 
   users.users.kkrawczyk = {
     isNormalUser = true;
-    description = "Kamil Krawczyk";
+    description = "Kamil Krawczyk (MCS)";
     shell = pkgs.zsh;
     hashedPasswordFile = config.sops.secrets."user-passwords/kkrawczyk".path;
     extraGroups = [
