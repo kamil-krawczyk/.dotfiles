@@ -54,7 +54,10 @@
     locations = [ "macro-system" ];
     desktop = "gnome";
     audio.enable = true;
-    wireless.enable = true;
+    wireless = {
+      enable = true;
+      interfaceName = "wlp2s0b1";
+    };
     vpn.enable = true;
     printing.enable = true;
     scanning.enable = true;
