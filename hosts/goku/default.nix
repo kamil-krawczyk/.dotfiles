@@ -18,6 +18,7 @@
 
       # Users
       ../common/users/kamil.nix
+      ../common/users/kkrawczyk.nix
     ];
 
   #===================================================================#
@@ -50,9 +51,11 @@
 
   i18n.defaultLocale = lib.mkForce "en_US.UTF-8";
   host = {
+    locations = [ "private" "macro-system" ];
     desktop = "gnome";
     audio.enable = true;
     wireless.enable = true;
+    vpn.enable = true;
     printing.enable = true;
     scanning.enable = true;
     libvirtd.enable = true;
