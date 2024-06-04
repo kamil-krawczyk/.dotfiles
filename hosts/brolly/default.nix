@@ -1,7 +1,7 @@
 #=====================================================================#
 #                                                                     #
 #                            Work desktop                             #
-#                          Dell OptiPlex 780                          #
+#              Gigabyte B650M DS3H with AMD Ryzen 9 7900              #
 #                                                                     #
 #=====================================================================#
 { lib, inputs, ... }:
@@ -9,7 +9,8 @@
   imports =
     [
       # Hardware
-      inputs.hardware.nixosModules.common-cpu-intel
+      inputs.hardware.nixosModules.common-cpu-amd-pstate
+      inputs.hardware.nixosModules.common-gpu-amd
       inputs.hardware.nixosModules.common-pc-ssd
 
       # Modules
@@ -39,20 +40,11 @@
   #===================================================================#
 
   boot = {
-    loader.grub = {
-      enable = true;
-      device = "/dev/sda";
-      useOSProber = true;
-      enableCryptodisk = true;
+    loader = {
+      systemd-boot.enable = true;
+      efi.canTouchEfiVariables = true;
     };
-    initrd = {
-      secrets = { "/crypto_keyfile.bin" = null; };
-      luks.devices = {
-        "luks-30f7cfe4-e23b-4089-bf18-19c9c30a8711".device = "/dev/disk/by-uuid/30f7cfe4-e23b-4089-bf18-19c9c30a8711";
-        "luks-1b981e60-be89-4c3e-a581-d900365de2d3".keyFile = "/crypto_keyfile.bin";
-        "luks-30f7cfe4-e23b-4089-bf18-19c9c30a8711".keyFile = "/crypto_keyfile.bin";
-      };
-    };
+    initrd.luks.devices."luks-2723ddeb-d8fb-49e0-873a-c3f0e71d491b".device = "/dev/disk/by-uuid/2723ddeb-d8fb-49e0-873a-c3f0e71d491b";
   };
 
   #===================================================================#
@@ -66,7 +58,7 @@
     audio.enable = true;
     wireless = {
       enable = true;
-      interfaceName = "wlp0s26f7u2";
+      interfaceName = "wlp18s0u1u4";
     };
     vpn.enable = true;
     printing.enable = true;
