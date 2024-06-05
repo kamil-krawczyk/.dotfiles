@@ -3,6 +3,7 @@
   home.packages = with pkgs; [
     eza
 
+    arj
     gzip
     zip
     unzip
