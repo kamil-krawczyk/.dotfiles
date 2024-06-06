@@ -10,6 +10,7 @@ in
 {
   imports = [
     ./git_none-kamil.nix
+    ./git_macro-system.nix
   ];
 
   options.user.git.enable = mkEnableOption "";
