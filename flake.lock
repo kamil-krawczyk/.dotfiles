@@ -2,11 +2,11 @@
   "nodes": {
     "hardware": {
       "locked": {
-        "lastModified": 1718265846,
-        "narHash": "sha256-h4MnTID6ciFxtTvtl+ibXMKaG6iLMezCtUvKIfFG7r0=",
+        "lastModified": 1718349360,
+        "narHash": "sha256-SuPne4BMqh9/IkKIAG47Cu5qfmntAaqlHdX1yuFoDO0=",
         "owner": "NixOS",
         "repo": "nixos-hardware",
-        "rev": "d75003136c0fc94ee60e51806c2801ff572d06a6",
+        "rev": "ae5c8dcc4d0182d07d75df2dc97112de822cb9d6",
         "type": "github"
       },
       "original": {
@@ -80,10 +80,10 @@
     "secrets": {
       "flake": false,
       "locked": {
-        "lastModified": 1717171281,
-        "narHash": "sha256-GdEjpntIKcc4/P+oFCHhWB4tJaXPKkBELMj77SrAvQY=",
+        "lastModified": 1718366891,
+        "narHash": "sha256-KAlyEctES6/Xw5gc5WKmsuE9DXkomvqycgCfnLOKF8I=",
         "ref": "main",
-        "rev": "6f184018e65f86ddeabb14ccf02d8bef7d8d762a",
+        "rev": "6a49dded6cb6fb8ae148020d754f531fe7e49a4a",
         "shallow": true,
         "type": "git",
         "url": "ssh://git@github.com/kamil-krawczyk/.secrets.git"
