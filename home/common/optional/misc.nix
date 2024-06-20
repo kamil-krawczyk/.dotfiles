@@ -16,10 +16,12 @@ with lib;
       fzf
       jq
 
-      toybox
-
       socat
       netcat
+
+      # gcc derivation provides some useful tools, such as ar or strings
+      gcc
+      coreutils
     ];
   };
 }

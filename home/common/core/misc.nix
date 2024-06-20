@@ -23,8 +23,5 @@
     ldns
     socat
     netcat
-
-    # gcc derivation provides some useful tools, such as ar or strings
-    gcc
   ];
 }
