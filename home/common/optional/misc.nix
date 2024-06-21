@@ -22,6 +22,7 @@ with lib;
       # gcc derivation provides some useful tools, such as ar or strings
       gcc
       coreutils
+      rlwrap
     ];
   };
 }
