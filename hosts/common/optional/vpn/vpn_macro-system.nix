@@ -40,7 +40,7 @@ in
             ca = config.sops.secrets."vpn/pluton/ca".path;
             cert = config.sops.secrets."vpn/pluton/cert".path;
             cert-pass-flags = "0";
-            cipher = "$CIPHER";
+            data-ciphers = "$CIPHER";
             comp-lzo = "adaptive";
             connection-type = "password-tls";
             dev = "tun";
