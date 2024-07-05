@@ -24,14 +24,14 @@ with lib;
     environment = {
       systemPackages = with pkgs; [
         dconf
-        gnome.dconf-editor
-        gnome.gnome-tweaks
+        dconf-editor
+        gnome-tweaks
         gnomeExtensions.caffeine
         xsel
       ];
       gnome.excludePackages = with pkgs; [
         epiphany
-        gnome.geary
+        geary
         gnome.gnome-contacts
         gnome.gnome-maps
         gnome.gnome-music
