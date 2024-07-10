@@ -56,8 +56,8 @@
     audio.enable = true;
     wireless.enable = true;
     vpn.enable = true;
-    printing.enable = true;
-    scanning.enable = true;
+    printing.enable = false;
+    scanning.enable = false;
     libvirtd.enable = true;
     docker.enable = true;
   };
