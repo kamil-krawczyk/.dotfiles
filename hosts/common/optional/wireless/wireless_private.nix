@@ -17,6 +17,7 @@ in
       # Convert .nmconnection files into nix code with use of https://github.com/janik-haag/nm2nix
       # sudo su -c "cd /etc/NetworkManager/system-connections && nix --extra-experimental-features 'nix-command flakes' run github:Janik-Haag/nm2nix"
       profiles = {
+
         "Krawczyk&Krawczyk2" = {
           connection = { id = "Krawczyk&Krawczyk2"; interface-name = interfaceName; type = "wifi"; uuid = "739765f1-ef25-47c7-ba19-0099faf12d82"; };
           ipv4 = { method = "auto"; };
@@ -33,6 +34,15 @@ in
           proxy = { };
           wifi = { mode = "infrastructure"; ssid = "Krawczyk&Krawczyk5"; };
           wifi-security = { auth-alg = "open"; key-mgmt = "wpa-psk"; psk = "$KrawczykAndKrawczyk"; };
+        };
+
+        "Orange_Swiatlowod_1270" = {
+          connection = { id = "Orange_Swiatlowod_1270"; interface-name = interfaceName; type = "wifi"; uuid = "5d9ed08d-9397-4ed1-9ff7-2374d4c53399"; };
+          ipv4 = { method = "auto"; };
+          ipv6 = { addr-gen-mode = "default"; method = "disabled"; };
+          proxy = { };
+          wifi = { mode = "infrastructure"; ssid = "Orange_Swiatlowod_1270"; };
+          wifi-security = { auth-alg = "open"; key-mgmt = "wpa-psk"; psk = "$Orange_Swiatlowod_1270"; };
         };
 
       };
