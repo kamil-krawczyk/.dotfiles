@@ -32,9 +32,9 @@ with lib;
       gnome.excludePackages = with pkgs; [
         epiphany
         geary
-        gnome.gnome-contacts
-        gnome.gnome-maps
-        gnome.gnome-music
+        gnome-contacts
+        gnome-maps
+        gnome-music
       ];
     };
   };
