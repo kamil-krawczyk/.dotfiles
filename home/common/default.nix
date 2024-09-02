@@ -31,7 +31,7 @@ with lib;
     ./optional/libreoffice.nix
     ./optional/mail
     ./optional/misc.nix
-    ./optional/opentoons.nix
+    ./optional/opentoonz.nix
     ./optional/virt-manager.nix  ];
 
   options.user = {
