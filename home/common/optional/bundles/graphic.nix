@@ -9,6 +9,7 @@ with lib;
     user = {
       gimp.enable = true;
       inkscape.enable = true;
+      opentoonz.enable = true;
     };
   };
 }
