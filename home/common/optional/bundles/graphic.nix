@@ -10,6 +10,7 @@ with lib;
       gimp.enable = true;
       inkscape.enable = true;
       opentoonz.enable = true;
+      kdenlive.enable = true;
     };
   };
 }

@@ -27,11 +27,12 @@ with lib;
     ./optional/google-chrome.nix
     ./optional/imagemagick.nix
     ./optional/inkscape.nix
+    ./optional/kdenlive.nix
     ./optional/libreoffice.nix
     ./optional/mail
     ./optional/misc.nix
-    ./optional/virt-manager.nix
-  ];
+    ./optional/opentoons.nix
+    ./optional/virt-manager.nix  ];
 
   options.user = {
     fullName = mkOption {
