@@ -32,7 +32,8 @@ with lib;
     ./optional/mail
     ./optional/misc.nix
     ./optional/opentoonz.nix
-    ./optional/virt-manager.nix  ];
+    ./optional/virt-manager.nix
+  ];
 
   options.user = {
     fullName = mkOption {
