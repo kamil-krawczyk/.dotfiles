@@ -2,7 +2,7 @@
   nixpkgs.config = {
     allowUnfree = true;
     permittedInsecurePackages = [
-      "opentoonz"
+      "libtiff-4.0.3-opentoonz"
     ];
   };
 
