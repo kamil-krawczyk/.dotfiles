@@ -18,6 +18,5 @@
     mail.enable = true;
     firefox.enable = true;
     google-chrome.enable = true;
-    inkscape.enable = true;
   };
 }
