@@ -33,6 +33,7 @@ with lib;
     ./optional/misc.nix
     ./optional/opentoonz.nix
     ./optional/virt-manager.nix
+    ./optional/xournalpp.nix
   ];
 
   options.user = {
