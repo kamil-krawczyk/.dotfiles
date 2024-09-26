@@ -8,9 +8,9 @@ with lib;
   config = mkIf config.user.bundle.graphic.enable {
     user = {
       gimp.enable = true;
-      inkscape.enable = true;
-      opentoonz.enable = true;
-      kdenlive.enable = true;
+      # inkscape.enable = true;
+      # opentoonz.enable = true;
+      # kdenlive.enable = true;
     };
   };
 }
