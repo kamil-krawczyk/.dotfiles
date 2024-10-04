@@ -50,8 +50,6 @@
       nixosConfigurations = {
         # Private laptop
         goku = mkSystem "goku";
-        # Private laptop
-        gohan = mkSystem "gohan";
         # Work desktop
         brolly = mkSystem "brolly";
         # Work laptop
