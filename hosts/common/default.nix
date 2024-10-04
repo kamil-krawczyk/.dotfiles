@@ -21,6 +21,7 @@ with lib;
     ./optional/audio.nix
     ./optional/desktop
     ./optional/desktop/gnome.nix
+    ./optional/desktop/kde-plasma6.nix
     ./optional/docker.nix
     ./optional/libvirtd.nix
     ./optional/printing.nix

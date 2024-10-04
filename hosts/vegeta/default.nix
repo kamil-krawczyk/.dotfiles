@@ -53,7 +53,7 @@
   i18n.defaultLocale = lib.mkForce "en_US.UTF-8";
   host = {
     locations = [ "macro-system" ];
-    desktop = "gnome";
+    desktop = "kde-plasma6";
     audio.enable = true;
     wireless = {
       enable = true;
