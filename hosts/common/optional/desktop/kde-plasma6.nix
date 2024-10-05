@@ -14,7 +14,6 @@ with lib;
       };
       displayManager = {
         sddm.enable = true;
-        sddm.wayland.enable = true;
         defaultSession = "plasma";
       };
       desktopManager.plasma6.enable = true;
