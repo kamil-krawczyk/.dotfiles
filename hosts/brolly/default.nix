@@ -58,7 +58,7 @@
     audio.enable = true;
     wireless = {
       enable = true;
-      interfaceName = "wlp18s0u1u4";
+      interfaceName = "wlp18s0u1u3";
     };
     vpn.enable = true;
     printing.enable = true;
