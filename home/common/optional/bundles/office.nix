@@ -9,7 +9,6 @@ with lib;
     user = {
       libreoffice.enable = true;
       evince.enable = true;
-      xournalpp.enable = true;
     };
   };
 }
