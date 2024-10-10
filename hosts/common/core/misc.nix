@@ -2,6 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
     tcpdump
+    wireshark
     nmap
     ldns
 
@@ -12,5 +13,7 @@
     strace
     ltrace
     lsof
+
+    pv
   ];
 }
