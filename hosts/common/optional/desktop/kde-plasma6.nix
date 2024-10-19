@@ -1,9 +1,10 @@
-{ config, lib, ... }:
+{ config, lib, pkgs, ... }:
 
 with lib;
 
 {
   config = mkIf (config.host.desktop == "kde-plasma6") {
+
     services = {
       xserver = {
         enable = true;
@@ -21,5 +22,12 @@ with lib;
       };
       desktopManager.plasma6.enable = true;
     };
+
+    environment.systemPackages = with pkgs; [
+      whitesur-kde
+      whitesur-cursors
+      whitesur-icon-theme
+    ];
+
   };
 }
