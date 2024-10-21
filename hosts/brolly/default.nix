@@ -55,7 +55,7 @@
   host = {
     locations = [ "macro-system" ];
     plymouth.enable = true;
-    desktop = "gnome";
+    desktop = "kde-plasma6";
     audio.enable = true;
     wireless = {
       enable = true;

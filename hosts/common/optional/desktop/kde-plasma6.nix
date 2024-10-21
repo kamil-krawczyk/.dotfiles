@@ -24,9 +24,7 @@ with lib;
     };
 
     environment.systemPackages = with pkgs; [
-      whitesur-kde
-      whitesur-cursors
-      whitesur-icon-theme
+      kdePackages.bluedevil
     ];
 
   };
