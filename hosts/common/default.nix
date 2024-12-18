@@ -24,6 +24,7 @@ with lib;
     ./optional/desktop/kde-plasma6.nix
     ./optional/docker.nix
     ./optional/libvirtd.nix
+    ./optional/virtualbox.nix
     ./optional/plymouth.nix
     ./optional/printing.nix
     ./optional/scanning.nix

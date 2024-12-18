@@ -65,6 +65,7 @@
     printing.enable = true;
     scanning.enable = true;
     libvirtd.enable = true;
+    virtualbox.enable = true;
     docker.enable = true;
   };
 }
