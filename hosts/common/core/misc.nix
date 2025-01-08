@@ -15,5 +15,6 @@
     lsof
 
     pv
+    parted
   ];
 }
