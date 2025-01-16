@@ -16,5 +16,7 @@
 
     pv
     parted
+
+    beeper
   ];
 }
