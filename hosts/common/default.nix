@@ -5,7 +5,7 @@ with lib;
 {
   imports = [
     # core (profile)
-    ./core/auto-upgrade.nix
+    #./core/auto-upgrade.nix
     ./core/boot.nix
     ./core/helix.nix
     ./core/home-manager.nix
