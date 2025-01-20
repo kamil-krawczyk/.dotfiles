@@ -48,8 +48,6 @@
 
       # Host configuration
       nixosConfigurations = {
-        # Private laptop
-        goku = mkSystem "goku";
         # Work desktop
         brolly = mkSystem "brolly";
         # Work laptop
