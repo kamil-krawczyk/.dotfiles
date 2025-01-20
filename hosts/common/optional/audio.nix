@@ -6,7 +6,7 @@ with lib;
   options.host.audio.enable = mkEnableOption "";
 
   config = mkIf config.host.audio.enable {
-    hardware.pulseaudio.enable = false;
+    services.pulseaudio.enable = false;
     security.rtkit.enable = true;
     services.pipewire = {
       enable = true;
