@@ -275,7 +275,7 @@ with lib.hm.gvariant;
 
     "org/gnome/shell" = {
       enabled-extensions = [ "caffeine@patapon.info" ];
-      favorite-apps = [ "org.gnome.Nautilus.desktop" "beeper.desktop" "firefox.desktop" "org.gnome.Console.desktop" ];
+      favorite-apps = [ "org.gnome.Nautilus.desktop" "thunderbird.desktop" "beeper.desktop" "firefox.desktop" "org.gnome.Console.desktop" ];
       last-selected-power-profile = "performance";
       welcome-dialog-last-shown-version = "45.4";
     };
