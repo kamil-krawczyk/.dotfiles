@@ -54,7 +54,7 @@
   #                              Options                              #
   #===================================================================#
 
-  i18n.defaultLocale = lib.mkForce "en_US.UTF-8";
+  # i18n.defaultLocale = lib.mkForce "en_US.UTF-8";
   host = {
     locations = [ "macro-system" ];
     plymouth.enable = true;
